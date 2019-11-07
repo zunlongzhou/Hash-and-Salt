@@ -1,11 +1,11 @@
 # Hash-and-Salt
 Implementation of Hash Salt Adding Algotithm
 
-**IDE: Visual Studio
+**IDE: Visual Studio**
 
-**Language:html,c#
+**Language:html,c#**
 
-**you can Open Run Direct in VS
+**you can Open Run Direct in VS**
 
 
 
