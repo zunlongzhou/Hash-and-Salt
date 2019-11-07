@@ -1,0 +1,221 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 寰蒋闆呴粦;
+    font-size: 17px;
+    background-color: rgb(245, 245, 245);
+    color: #444;
+}
+
+header #logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo a {
+    color: #fff;
+}
+
+.back {
+    position: absolute;
+    left: 0;
+    padding: 0.1875rem 1rem 0 0.8rem;
+}
+
+.brand {
+    position: relative;
+}
+
+.record {
+    position: absolute;
+    right: 0.8rem;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.lives {
+    margin: 3.5rem auto;
+}
+
+.list-group-item {
+    padding: 18px 0;
+    background-color: #fff;
+}
+
+.text-left {
+    width: 36%;
+    float: left;
+}
+
+.text-center {
+    float: left;
+    width: 28%;
+}
+
+.text-right {
+    float: left;
+    width: 36%;
+}
+
+    .text-left img, .text-right img {
+        width: 60px;
+        height: 60px;
+    }
+
+.text-center {
+    text-align: center;
+    font-size: 18px;
+}
+
+    .text-center .time {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+.match {
+    color: #449c2f;
+    font-size: 18px;
+}
+
+.text-left a, .text-right a {
+    width: 100%;
+    color: #444;
+}
+
+    .text-left a span {
+        text-align: center;
+        width: calc(100% - 66px);
+        float: right;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-right: 6px;
+    }
+
+    .text-left a img {
+        float: right;
+    }
+
+    .text-right a span {
+        text-align: center;
+        width: calc(100% - 66px);
+        float: left;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 6px;
+    }
+
+    .text-right a img {
+        float: left;
+    }
+
+.list-group-item-bottom {
+    margin-top: 18px;
+    text-align: center;
+}
+
+    .list-group-item-bottom span {
+        font-size: 16px;
+        color: #888;
+    }
+
+    .list-group-item-bottom a {
+        display: inline-block;
+        font-size: 16px;
+        padding: 0 5px;
+        color: #428bca;
+    }
+
+.top-time {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signals {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+    .signals a.signal {
+        color: #548449;
+        border: 1px solid #548449;
+        padding: .4em .8em;
+        border-radius: 6px;
+    }
+
+.player {
+    display: block;
+    margin: 0 auto;
+    width: 810px;
+    height: 510px;
+}
+
+@media (max-width: 768px) {
+    .player {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .lives {
+        text-align: center;
+        max-width: 50%;
+    }
+}
+
+.signals a.signal.active {
+    color: white;
+    background: #548449;
+    border: 1px solid #548449;
+}
+
+.share {
+    color: #666;
+    font-size: 16px;
+}
+
+    .share .source {
+        margin-top: 5px;
+        margin-left: 10px;
+        padding-left: 5px;
+        width: 300px;
+        height: 1.6rem;
+        font-size: 0.95rem;
+        color: #666;
+    }
+
+.qrcode {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+    .qrcode b {
+        color: #548449;
+    }
+
+footer {
+    padding-bottom: 20px;
+    text-align: center;
+}
